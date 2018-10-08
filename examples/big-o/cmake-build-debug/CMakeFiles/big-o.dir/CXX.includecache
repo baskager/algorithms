@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bas/Courses/algorithms/examples/big-o/Headers/BigO.h
+iostream
+-
+ctime
+-
+string
+-
+chrono
+-
+ctime
+-
+
+/home/bas/Courses/algorithms/examples/big-o/Headers/RandomArrayFactory.h
+
+/home/bas/Courses/algorithms/examples/big-o/main.cpp
+iostream
+-
+Headers/BigO.h
+/home/bas/Courses/algorithms/examples/big-o/Headers/BigO.h
+Headers/RandomArrayFactory.h
+/home/bas/Courses/algorithms/examples/big-o/Headers/RandomArrayFactory.h
+array
+-
+
