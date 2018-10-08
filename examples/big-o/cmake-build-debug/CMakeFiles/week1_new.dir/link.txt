@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/week1_new.dir/main.cpp.o CMakeFiles/week1_new.dir/src/BigO.cpp.o CMakeFiles/week1_new.dir/src/RandomArrayFactory.cpp.o  -o week1_new 
