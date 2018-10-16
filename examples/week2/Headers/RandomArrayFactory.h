@@ -5,15 +5,12 @@
 #ifndef WEEK1_NEW_RANDOMARRAYFACTORY_H
 #define WEEK1_NEW_RANDOMARRAYFACTORY_H
 
+#include <iostream>
+#include <vector>
 
 class RandomArrayFactory {
-private:
-    int arrayLength = 0;
-    int * randomArray;
 public:
-    RandomArrayFactory(int arraySize, int min, int max);
-    int * getArray();
-    int getArrayLength();
+    static int* getRandomArray(int size, int min, int max);
 };
 
 
