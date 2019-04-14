@@ -19,8 +19,6 @@ int main(){
     hashTable.put("0630162516");
     hashTable.put("0630123934");
 
-
-
     hashTable.displayStack();
 
     std::cout << "--------------" << std::endl;
